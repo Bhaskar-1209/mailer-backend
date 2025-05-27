@@ -20,7 +20,7 @@ const PORT = 4040;
 const MONGO_URI = 'mongodb+srv://bhskrbnsl:FbVrkfLSDTHHwrTh@cluster0.zhpfit1.mongodb.net/';
 const EMAIL_USER = 'bhskrbnsl@gmail.com';
 const EMAIL_PASS = 'xkny picq gehg nukx';
-const BASE_URL = `http://localhost:${PORT}`;
+const BASE_URL = `https://mailerfront.netlify.app`;
 
 mongoose.connect(MONGO_URI)
 .then(() => {
